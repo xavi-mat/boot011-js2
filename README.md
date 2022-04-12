@@ -22,6 +22,7 @@ Clone the repository using the link:
 https://github.com/xavi-mat/boot011-js2.git
 ```
 
+## Screenshots (vistas previas)
 Put an image:
 
 ![foto](link)
@@ -30,6 +31,9 @@ Put an image:
 
 This project was developed by xavimat for the [The Bridge Javascript 2 exercise](https://github.com/xavi-mat/boot011-js2).
 
+## More functionalities
+
+All funcionatilites must be documented, such as endopoints in an API, how it's used, etc.
 
 ## Exercises
 
