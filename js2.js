@@ -3,6 +3,7 @@
 // 1. Booleanos
 console.log(`// 1. Booleanos
 `);
+
 //     Dados 2 variables booleanas:
 const booleano1 = true;
 const booleano2 = false;
@@ -29,8 +30,8 @@ console.log(`
 // 2.Operadores
 `);
 // Crear variable valorDivisión cuyo valor sea la división de 17 entre 3 y que solo muestre 2 decimales en el resultado
-const valorDivisión = 17 / 3;
-console.log("valorDivisión", valorDivisión.toFixed(2));
+const valorDivision = 17 / 3;
+console.log("valorDivisión", valorDivision.toFixed(2));
 
 // Crear variable valorResto cuyo valor sea el resto de 17 entre 7
 const valorResto = 17 % 7;
@@ -47,11 +48,12 @@ const a = 9;
 const b = '9';
 console.log("Valores: a = 9; b = '9'");
 console.log("a == b:", a == b ? 'Son iguales' : 'No son iguales');
-console.log("a === b:", a === b ? 'Son iguales' : 'No son iguales');
+console.log("a === b:", a === b ? 'Son idénticos' : 'No son idénticos');
 
 // Crea una variable mochila que sea un array de elementos, desarrolla la lógica para que sí mochila tiene más de 10 elementos muestre por consola el mensaje “No puedo cargar con tantas cosas”, sí mochila contiene entre 10 y 2 elementos se muestre por consola “Que bien voy con mi mochila” y si no muestre por consola “Creo q no necesito una mochila”
 
 const dimeMochila = mochila => {
+
     console.log(`Mochila con ${mochila.length} elementos:`);
 
     if (mochila.length > 10) {
@@ -74,7 +76,7 @@ dimeMochila(mochila);
 let contarHasta10 = 0;
 while (true) {
     if (contarHasta10 === 10) {
-        console.log("¡ contarHasta10 === 10 !");
+        console.log("contarHasta10 === 10");
         break;
     }
     console.log(`contarHasta10 no es 10`);
@@ -104,7 +106,7 @@ for (let i = 4; i < 19; i++) {
 console.log('arrayBucle:', arrayBucle);
 
 // Recorre la variable creada anteriormente arrayBucle ,suma todos sus elementos y guárdalos en una variable de nombre resultado
-const resultado = arrayBucle.reduce((n, i)=> n+i);
+const resultado = arrayBucle.reduce((n, i) => n+i);
 console.log("resultado:", resultado);
 
 // Dado el siguiente array, [‘Con’, ‘Sofia’, ‘aprendiendo’, ‘bucles’], recorrelo utilizando el bucle “for of” y muestra por consola todos sus elementos, después recórrelo utilizando el bucle “for in” mostrando también por consola todos sus elementos
@@ -115,7 +117,7 @@ for (const word of words) {
 }
 console.log("for in:");
 for (const key in words) {
-    console.log(`Word: ${words[key]}`);
+    console.log(`Key: ${key}. Word: ${words[key]}`);
 }
 
 // Crea un bucle utilizando “while” que itere 20 veces y muestre por consola “Patata” cada vez que el número de la iteración sea múltiplo de 3
@@ -171,6 +173,7 @@ while (nota != -1) {
 
 // Crea una función resta que espere dos parámetros a y b y que devuelva la resta de los mismos.
 const resta = (a, b) => a - b;
+console.log("resta(-5, -8):", resta(-5, -8));
 
 // Crea la función duplicaNumero debe recibir un tipo number y devolver el doble del valor recibido. Si la función no recibe un dato tipo number debe devolver el string ‘Debo ser ejecutada con un número’
 const duplicaNumero = (num) =>
