@@ -2,6 +2,25 @@
 
 https://docs.google.com/document/d/1DlzEayEHQjJBl38miM0WVPnub6wGRQLN-seawRxn-AA/edit
 
+Javascript exercises: Condicionals, loops and functions.
+
+## Technologies
+
+This project uses the languages:
+
+* HTML
+* JS
+
+## Install
+
+Requirements to install and use this repo.
+
+For example:
+
+Clone the repository using the link:
+```
+https://github.com/xavi-mat/boot011-js2.git
+```
 
 
 ## 1. Booleanos
