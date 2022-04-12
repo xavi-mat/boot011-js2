@@ -170,12 +170,15 @@ while (nota != -1) {
 
 
 // Crea una función resta que espere dos parámetros a y b y que devuelva la resta de los mismos.
-
+const resta = (a, b) => a - b;
 
 // Crea la función duplicaNumero debe recibir un tipo number y devolver el doble del valor recibido. Si la función no recibe un dato tipo number debe devolver el string ‘Debo ser ejecutada con un número’
+const duplicaNumero = (num) =>
+    typeof num === 'number' ?
+    num * 2 :
+    "Debo ser ejecutada con un número";
 
-
-// Entregables
-
-// Subir el ejercicio a un repositorio en github
-// Dejar el enlace del repositorio adjuntado en Classroom
+console.log("duplicaNumero(3):", duplicaNumero(3));
+console.log("duplicaNumero(-4):", duplicaNumero(-4));
+console.log("duplicaNumero('5'):", duplicaNumero('5'));
+console.log("duplicaNumero('Ambrosio'):", duplicaNumero('Ambrosio'));
