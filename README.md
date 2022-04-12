@@ -22,8 +22,18 @@ Clone the repository using the link:
 https://github.com/xavi-mat/boot011-js2.git
 ```
 
+Put an image:
 
-## 1. Booleanos
+![foto](link)
+
+## Author
+
+This project was developed by xavimat for the [The Bridge Javascript 2 exercise](https://github.com/xavi-mat/boot011-js2).
+
+
+## Exercises
+
+### 1. Booleanos
 Dados 2 variables booleanas:
 ```
 booleano1 = true;
@@ -35,11 +45,11 @@ booleano2 = false;
  * Crear variable booleanoNot cuyo valor sea la comparación booleana no booleano1
  * Crear variable booleanoMix0 cuyo valor sea la comparación booleana (booleano1 or booleano2) and (booleano1 or (not booleano1 and not booleano2)
 
-## 2.Operadores
+### 2.Operadores
  * Crear variable valorDivisión cuyo valor sea la división de 17 entre 3 y que solo muestre 2 decimales en el resultado
  * Crear variable valorResto cuyo valor sea el resto de 17 entre 7
 
-## 3.Lógica de programación
+### 3.Lógica de programación
  * Crea una variable A cuyo valor sea el número 9, después crea una variable B cuyo valor sea un string con el número 9, desarrolla la lógica para que cuando A == B muestre por consola “Son iguales”, ¿qué pasa si en vez de tener A == B, comprobamos que A === B?
  * Crea una variable mochila que sea un array de elementos, desarrolla la lógica para que sí mochila tiene más de 10 elementos muestre por consola el mensaje “No puedo cargar con tantas cosas”, sí mochila contiene entre 10 y 2 elementos se muestre por consola “Que bien voy con mi mochila” y si no muestre por consola “Creo q no necesito una mochila”
  * Crear variable contarHasta10 con valor 0 e incrementar su valor con un bucle hasta que se verifique que contarHasta10 === 10
